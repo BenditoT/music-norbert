@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Norbert Kotzan – Konzert-Highlights: Bamberger Symphoniker, Misa Tango, Bammenthaler Serenade, Tango-Comedy mit Annette Postel">
+    <meta name="keywords" content="Norbert Kotzan, Bandoneon, Bamberger Symphoniker, Misa Tango, Palmeri, Bammenthaler Serenade, Konzerte">
+    <title>Highlights & Konzerte | Norbert Kotzan – Bandoneonist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .highlight-card {
+            background: var(--color-white);
+            border-radius: var(--border-radius);
+            padding: var(--spacing-md);
+            margin-bottom: var(--spacing-md);
+            box-shadow: var(--shadow-sm);
+            border-left: 4px solid var(--color-accent);
+        }
+        .highlight-card.featured {
+            border-left-width: 6px;
+            background: linear-gradient(135deg, #fffbeb 0%, #ffffff 100%);
+        }
+        .highlight-date {
+            font-size: 0.875rem;
+            color: var(--color-accent);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .highlight-venue {
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            margin-top: 0.5rem;
+        }
+        .highlight-role {
+            display: inline-block;
+            background: var(--color-primary);
+            color: var(--color-white);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-top: 0.75rem;
+        }
+        .timeline-year {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            color: var(--color-primary);
+            margin: var(--spacing-lg) 0 var(--spacing-md);
+            padding-bottom: var(--spacing-xs);
+            border-bottom: 2px solid var(--color-accent);
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-accent);
+            margin-bottom: var(--spacing-md);
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Norbert Kotzan</a>
+            <button class="nav-toggle" aria-label="Menü öffnen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="index.html#about">Über mich</a></li>
+                <li><a href="index.html#projects">Projekte</a></li>
+                <li><a href="highlights.html" class="active">Highlights</a></li>
+                <li><a href="index.html#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="padding-top: 100px;">
+        <!-- Hero Section -->
+        <section class="section" style="background: linear-gradient(rgba(26, 26, 46, 0.8), rgba(22, 33, 62, 0.9)), url('images/ensemble/buenos-aires-tango-ensemble-konzert.jpg'); background-size: cover; background-position: center; color: white; padding: var(--spacing-xl) 0;">
+            <div class="container">
+                <h1 style="color: white;">Konzert-Highlights</h1>
+                <p style="font-size: 1.25rem; opacity: 0.9; max-width: 700px;">Ausgewählte Auftritte und besondere Projekte der letzten Jahre – von Kammerkonzerten mit renommierten Orchestern bis zu sakralen Werken.</p>
+            </div>
+        </section>
+
+        <!-- Highlights Content -->
+        <section class="section">
+            <div class="container">
+                <a href="index.html" class="back-link">← Zurück zur Startseite</a>
+
+                <!-- 2026/2027 -->
+                <h2 class="timeline-year">2026 / 2027</h2>
+
+                <!-- Bamberger Symphoniker Wiedereinladung - FEATURED -->
+                <article class="highlight-card featured">
+                    <span class="highlight-date">31. Januar 2027</span>
+                    <h3>Wiedereinladung: Bamberger Symphoniker</h3>
+                    <p>Nach dem restlos ausverkauften Kammerkonzert im Januar 2024 – selbst das kurzfristig angesetzte Zusatzkonzert war vollständig ausverkauft – folgt die Wiedereinladung als Solist am Bandoneon in den Spiegelsaal der Bamberger Symphoniker.</p>
+                    <p class="highlight-venue"><strong>Ort:</strong> Spiegelsaal, Bamberg · 17:00 Uhr</p>
+                    <span class="highlight-role">Bandoneon Solo</span>
+                </article>
+
+                <!-- Auftragskomposition - FEATURED -->
+                <article class="highlight-card featured">
+                    <span class="highlight-date">10. Oktober 2026</span>
+                    <h3>Auftragskomposition – Vertreibung und Flucht</h3>
+                    <p>Uraufführung einer Auftragskomposition zum Thema Vertreibung und Flucht. Ein Werk, das persönliche Schicksale und historische Erfahrungen musikalisch verarbeitet – mit dem Buenos Aires Tango Ensemble.</p>
+                    <p class="highlight-venue"><strong>Ort:</strong> Bürgersaal Haßloch<br>
+                    <strong>Mit:</strong> Buenos Aires Tango Ensemble</p>
+                    <span class="highlight-role">Komposition & Bandoneon</span>
+                </article>
+
+                <!-- 2024 -->
+                <h2 class="timeline-year">2024</h2>
+
+                <!-- Bamberger Symphoniker 2024 -->
+                <article class="highlight-card featured">
+                    <span class="highlight-date">14. Januar 2024</span>
+                    <h3>Kammerkonzert mit den Bamberger Symphonikern</h3>
+                    <p>Im Rahmen des Kammerkonzerts „Argentinischer Tango" der Bamberger Symphoniker – Bayerische Staatsphilharmonie – spielte ich Bandoneon in diesem exklusiven Ensemble. Aufgrund der enormen Nachfrage wurde zusätzlich eine „Tango Late Night" veranstaltet – beide Konzerte waren restlos ausverkauft.</p>
+                    <p class="highlight-venue"><strong>Ort:</strong> Konzerthalle Bamberg<br>
+                    <strong>Mit:</strong> Mitglieder der Bamberger Symphoniker (Mayra Budagjan, Geworg Budagjan – Violine; Wen Xiao Zheng – Viola; Guilherme Nardelli Monegatto – Violoncello; Mátyás Németh – Kontrabass; Paul Rivinius – Klavier)</p>
+                    <span class="highlight-role">Bandoneon Solo</span>
+                </article>
+
+                <!-- Bammenthaler Serenade - FEATURED -->
+                <article class="highlight-card featured">
+                    <span class="highlight-date">Oktober 2024</span>
+                    <h3>Bammenthaler Serenade – Tango für Symphonie-Orchester</h3>
+                    <p>Ein persönliches Herzensprojekt: Für die Bammenthaler Serenade habe ich Tangos speziell für Symphonie-Orchester arrangiert und das Konzert als Bandoneonist mitgestaltet. Die Verbindung von argentinischem Tango mit dem Klangkörper eines vollen Symphonieorchesters schafft eine einzigartige Klangwelt.</p>
+                    <p class="highlight-venue"><strong>Ort:</strong> Bammental<br>
+                    <strong>Mit:</strong> Bammentaler Symphonie Orchester</p>
+                    <span class="highlight-role">Arrangement & Bandoneon</span>
+                </article>
+
+                <!-- Misa Tango November 2024 -->
+                <article class="highlight-card">
+                    <span class="highlight-date">9. & 10. November 2024</span>
+                    <h3>Misa Tango – Kammerchor Baden-Württemberg & Kurpfalzphilharmonie</h3>
+                    <p>Zwei eindrucksvolle Aufführungen von Martín Palmeris „Misa a Buenos Aires" mit dem preisgekrönten Kammerchor Baden-Württemberg und der Kurpfalzphilharmonie unter der Leitung von Jochen Woll.</p>
+                    <p class="highlight-venue"><strong>9.11.:</strong> Friedenskirche Heidelberg-Handschuhsheim (20:00 Uhr)<br>
+                    <strong>10.11.:</strong> Leonhardskirche Stuttgart (17:00 Uhr)<br>
+                    <strong>Solistin:</strong> Giorgia Cappello (Mezzosopran)</p>
+                    <span class="highlight-role">Bandoneon</span>
+                </article>
+
+                <!-- Misa Tango Idar-Oberstein -->
+                <article class="highlight-card">
+                    <span class="highlight-date">2024</span>
+                    <h3>Misa a Buenos Aires – Stadttheater Idar-Oberstein</h3>
+                    <p>Aufführung der „Misa a Buenos Aires" von Martín Palmeri mit der Kantorei Idar-Oberstein/Obere Nahe unter der Leitung von Kreiskantor Christian Kurtzahn. Ein Werk, das die Spiritualität der Messe mit der Leidenschaft des Tangos verbindet.</p>
+                    <p class="highlight-venue"><strong>Ort:</strong> Stadttheater Idar-Oberstein / Abteikirche Offenbach am Glan</p>
+                    <span class="highlight-role">Bandoneon</span>
+                </article>
+
+                <!-- Gran Noche de Tango -->
+                <article class="highlight-card">
+                    <span class="highlight-date">23. November 2024</span>
+                    <h3>Gran Noche de Tango – Cuarteto Bien Porteño</h3>
+                    <p>Live-Tango auf höchstem Niveau im Tanzhaus Heidelberg. Ein Abend voller Leidenschaft mit dem Cuarteto Bien Porteño.</p>
+                    <p class="highlight-venue"><strong>Ort:</strong> Tanzhaus Heidelberg, Bergheimer Straße 147<br>
+                    <strong>Veranstalter:</strong> tangojam</p>
+                    <span class="highlight-role">Bandoneon & Leitung</span>
+                </article>
+
+                <!-- Tango for Musicians -->
+                <article class="highlight-card">
+                    <span class="highlight-date">Juli/August 2024</span>
+                    <h3>Tango for Musicians – Leipzig</h3>
+                    <p>Teilnahme am internationalen Workshop „Tango for Musicians" in Leipzig mit über 80 Musikern aus 13 Ländern. Mitwirkung in der Orquesta Típica und Premiere eigener Kompositionen.</p>
+                    <p class="highlight-venue"><strong>Ort:</strong> Musikschule Neue Musik Leipzig / Schaubühne Lindenfels<br>
+                    <strong>Veranstalter:</strong> Tango Sin Fin</p>
+                    <span class="highlight-role">Bandoneon & Komponist</span>
+                </article>
+
+                <!-- 2023 -->
+                <h2 class="timeline-year">2023</h2>
+
+                <!-- Misa Tango Kurpfalzphilharmonie -->
+                <article class="highlight-card">
+                    <span class="highlight-date">2023</span>
+                    <h3>Misa Tango – Kurpfalzphilharmonie</h3>
+                    <p>Aufführung der „Misa a Buenos Aires" von Martín Palmeri mit der Kurpfalzphilharmonie. Ein Meilenstein in der Verbreitung dieses einzigartigen sakralen Werkes in Süddeutschland.</p>
+                    <span class="highlight-role">Bandoneon</span>
+                </article>
+
+                <!-- Misa Tango Bad Homburg -->
+                <article class="highlight-card">
+                    <span class="highlight-date">2023</span>
+                    <h3>Misa Tango – Bad Homburg</h3>
+                    <p>Weitere Aufführung der „Misa a Buenos Aires" – das Werk, das die lateinische Messe mit dem Tango Nuevo verbindet, begeisterte auch hier das Publikum.</p>
+                    <span class="highlight-role">Bandoneon</span>
+                </article>
+
+                <!-- Cuarteto Bien Porteño Taeter Theater -->
+                <article class="highlight-card">
+                    <span class="highlight-date">11. Juni 2023</span>
+                    <h3>Cuarteto Tango Bien Porteño – Taeter Theater Heidelberg</h3>
+                    <p>Konzert mit dem Cuarteto Bien Porteño im Taeter Theater. Repertoire aus hundert Jahren Tangogeschichte – von Pugliese und Di Sarli bis Piazzolla.</p>
+                    <p class="highlight-venue"><strong>Ort:</strong> Taeter Theater Heidelberg<br>
+                    <strong>Besetzung:</strong> Julia Jech (Violine), Jorge Coll (Klavier), Johannes Alisch (Kontrabass), Norbert Kotzan (Bandoneon)</p>
+                    <span class="highlight-role">Bandoneon & Leitung</span>
+                </article>
+
+                <!-- Tango for Musicians 2023 -->
+                <article class="highlight-card">
+                    <span class="highlight-date">2023</span>
+                    <h3>Tango for Musicians – Leipzig</h3>
+                    <p>Erste Teilnahme am europäischen „Tango for Musicians" Workshop. Auftritte mit der Student Orquesta Típica und der Gran Orquesta.</p>
+                    <p class="highlight-venue"><strong>Programm u.a.:</strong> La Bordona, Che Buenos Aires, Tú, Fuimos</p>
+                    <span class="highlight-role">Bandoneon</span>
+                </article>
+
+                <!-- Ongoing Projects Section -->
+                <h2 class="timeline-year">Laufende Projekte</h2>
+
+                <!-- Alles Tango oder was? -->
+                <article class="highlight-card">
+                    <span class="highlight-date">Seit 2015</span>
+                    <h3>„Alles Tango oder was?" – Tango-Comedy mit Annette Postel</h3>
+                    <p>Als Teil der „Tangomafia" begleite ich die preisgekrönte Kabarettistin Annette Postel am Bandoneon in ihrem erfolgreichen Tango-Comedy-Programm. Argentinischer Tango mit frechen deutschen Texten – eine einzigartige Mischung aus Musik und Humor.</p>
+                    <p><strong>2021:</strong> Live-Album „Alles Tango oder was?" (mit Bobbi Fischer)</p>
+                    <p class="highlight-venue"><strong>Auftritte u.a.:</strong> Deutsches Theater München, Kulturparkett Rhein-Neckar, Theater Mobile, bundesweite Tour</p>
+                    <span class="highlight-role">Bandoneon</span>
+                </article>
+
+                <!-- Männer ohne Nerven -->
+                <article class="highlight-card">
+                    <span class="highlight-date">Laufend</span>
+                    <h3>„Männer ohne Nerven" – A-Cappella-Comedy</h3>
+                    <p>Als Mitglied des preisgekrönten A-Cappella-Quartetts „Männer ohne Nerven" aus der Heidelberger Region. Vierstimmige Comedy mit „Männergeschichten a cappella" – von Beziehungsproblemen bis zur korrekten Wurstlagerung.</p>
+                    <p><strong>Auszeichnung:</strong> Kleinkunstpreis Baden-Württemberg</p>
+                    <p class="highlight-venue"><strong>Mitglieder:</strong> Philipp Leschhorn, Norbert Kotzan, Christoph Kendel, Thorsten Werner</p>
+                    <span class="highlight-role">Sänger</span>
+                </article>
+
+                <!-- CTA Section -->
+                <div style="margin-top: var(--spacing-xl); padding: var(--spacing-lg); background: var(--color-light); border-radius: var(--border-radius); text-align: center;">
+                    <h3>Interesse an einer Zusammenarbeit?</h3>
+                    <p style="color: var(--color-text-light); margin-bottom: var(--spacing-md);">Für Konzertanfragen, Misa Tango-Aufführungen oder andere Projekte stehe ich gerne zur Verfügung.</p>
+                    <a href="index.html#contact" class="btn btn-primary">Kontakt aufnehmen</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">Norbert Kotzan</span>
+                    <p>Bandoneonist · Heidelberg</p>
+                </div>
+                <nav class="footer-nav">
+                    <a href="index.html#about">Über mich</a>
+                    <a href="index.html#projects">Projekte</a>
+                    <a href="highlights.html">Highlights</a>
+                    <a href="index.html#contact">Kontakt</a>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Norbert Kotzan. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
